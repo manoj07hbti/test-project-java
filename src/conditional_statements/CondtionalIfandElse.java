@@ -14,7 +14,7 @@ public class CondtionalIfandElse {
 
         int age=6;
 
-        if (age>18){
+        if (age>18 ){
 
             System.out.println("Person is YOUNG ...");
         }
