@@ -13,7 +13,7 @@ public class Student {
 
         // SYNTAX: ClassName object_name= new ClassName ();
 
-        Student object=new Student();// object created
+        Student object=new Student();// object created  CONSTRUCTOR
 
         System.out.println("Name is : " +object.name);
         System.out.println("Age is : " +object.age);

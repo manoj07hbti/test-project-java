@@ -12,14 +12,14 @@ public class CondtionalIfandElse {
                          CODE
                      }*/
 
-        int age=6;
+        int age=21;
 
-        if (age>18 ){
+        if (age>18 && age<20 && age!=0){
 
             System.out.println("Person is YOUNG ...");
         }
         else{
-            System.out.println("Person is KID");
+            System.out.println("Person is more than 20 years of Age...");
         }
 
         String city="DELHI";
