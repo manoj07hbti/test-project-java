@@ -1,6 +1,7 @@
 package arrays;
 
 import java.lang.reflect.Array;
+import java.util.Scanner;
 
 public class DemoArrays {
 
@@ -59,6 +60,20 @@ public class DemoArrays {
         object.demo();
         object.demoStringArray();
         object.demoDesimalArray();
+
+        Scanner myObj = new Scanner(System.in);
+        String [] name=new String[5];// intialize
+        for (int i=0;i<5;i++) {
+            System.out.println("Please enter element of array");
+            String input=myObj.nextLine();
+            name[i]=input;
+
+        }
+
+        for( String var: name){
+
+            System.out.println("Printing names entered by user" +var);
+        }
 
     }
 }
