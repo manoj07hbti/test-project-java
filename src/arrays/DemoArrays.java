@@ -8,71 +8,70 @@ public class DemoArrays {
 
     //method
 
-    public void demo(){
+    public void demo() {
         // SYNTAX of  Array : DataType [] variable_name={,,,}
 
-        int [] Intarray= {1,2,3,4,5,6,7,8};
+        int[] Intarray = {1, 2, 3, 4, 5, 6, 7, 8};
 
         // advance loop for (Datatype variable : array/collection){}
 
-        for (int i=0;i<Intarray.length;i++){
+        for (int i = 0; i < Intarray.length; i++) {
 
-            System.out.println("Printing value using normal loop " +Intarray[i]);
+            System.out.println("Printing value using normal loop " + Intarray[i]);
 
         }
-        for (int var: Intarray){
+        for (int var : Intarray) {
 
-            System.out.println("inside advance loop "+var);
+            System.out.println("inside advance loop " + var);
         }
-
 
 
     }
 
-    public void demoStringArray(){
+    public void demoStringArray() {
 
-       // DataType [] variable_name={,,,}
+        // DataType [] variable_name={,,,}
 
-        String [] names={"Raj","Deepak","Mohit","John"};
+        String[] names = {"Raj", "Deepak", "Mohit", "John"};
 
         // advance loop for (Datatype variable : array/collection){}
 
-        for (String var: names){
+        for (String var : names) {
 
-            System.out.println("Printing names Array..."+var);
+            System.out.println("Printing names Array..." + var);
         }
     }
 
-    public void demoDesimalArray(){
+    public void demoDesimalArray() {
 
 
-        double [] prices={23.4,45.3,55.4,67.8,78.6,12.1};
+        double[] prices = {23.4, 45.3, 55.4, 67.8, 78.6, 12.1};
 
-        for (double var:prices ){
-            System.out.println("Printing Prices Array..."+var);
+        for (double var : prices) {
+            System.out.println("Printing Prices Array..." + var);
 
         }
     }
 
     public static void main(String[] args) {
 
-        DemoArrays object= new DemoArrays();
+        DemoArrays object = new DemoArrays();
         object.demo();
         object.demoStringArray();
         object.demoDesimalArray();
 
         Scanner myObj = new Scanner(System.in);
-        String [] name=new String[5];// intialize
-        for (int i=0;i<5;i++) {
+        String[] name = new String[5];// intialize
+        for (int i = 0; i < 5; i++) {
             System.out.println("Please enter element of array");
-            String input=myObj.nextLine();
-            name[i]=input;
+            String input = myObj.nextLine();
+            name[i] = input;
 
         }
 
-        for( String var: name){
+        for (String var : name) {
 
-            System.out.println("Printing names entered by user" +var);
+            System.out.println("Printing names entered by user" + var);
         }
 
     }
