@@ -23,6 +23,10 @@ public class DemoArrayListStudent {
         Student student3=new Student("Mahesh",24,"Mech");
         Student student4=new Student("Ram",24,"CS");
 
+        student4.setName("JAVA");
+        student4.setAge(20);
+        student4.setBranch("CIVIL");
+
         // add data to the list
         studentArrayList.add(student1);//0
         studentArrayList.add(student2);//1

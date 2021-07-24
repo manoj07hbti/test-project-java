@@ -34,6 +34,9 @@ public void demo(){
         listOfMarks.add(23);// 1 index  // deleted
         listOfMarks.add(33);//2 index  // 1 index
         listOfMarks.add(45);// 3 index  // 2 index
+        listOfMarks.add(45);
+        listOfMarks.add(45);
+
 
         listOfMarks.remove(1);
         for(Integer var: listOfMarks){
