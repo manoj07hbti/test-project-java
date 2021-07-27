@@ -15,6 +15,8 @@ public class HashSetWIthStudent {
         Student student3=new Student("Mahesh",24,"Mech");
         Student student4=new Student("Ram",24,"CS");
 
+        student1.setName("Java");
+
         studentHashSet.add(student1);
         studentHashSet.add(student2);
         studentHashSet.add(student3);
