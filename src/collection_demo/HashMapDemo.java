@@ -8,6 +8,7 @@ public class HashMapDemo {
 
         //Syntax:   HashMap <Key_DataType,Value_DataType> objName= new HashMap <Key_DataType,Value_DataType> ();
 
+        // className  objectname= new ClassName();
         HashMap <Integer,String> hashMap= new HashMap <Integer,String>();
 
         // adding values to map
