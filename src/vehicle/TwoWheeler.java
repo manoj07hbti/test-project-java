@@ -3,7 +3,7 @@ package vehicle;
 public class TwoWheeler extends Vehicle {
 
 
-    @Override
+
     public void service() {
         System.out.println("THIS IS TWO WHEELER SERVICE METHOD");
     }
