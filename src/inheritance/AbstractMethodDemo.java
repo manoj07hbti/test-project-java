@@ -13,5 +13,12 @@ public abstract class AbstractMethodDemo {
         System.out.println("This is normal method");
     }
 
+    public static void main(String[] args) {
+// WE CAN NOT CREATE OBJECT OF ABSTRACT , OBJECT will call abstract
+// method and abstract method does not have any code to execute
+
+       // AbstractMethodDemo obj = new AbstractMethodDemo();
+       // obj.demo();
+    }
 
 }
